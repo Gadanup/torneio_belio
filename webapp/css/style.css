@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Lilita+One&display=swap');
+
+:root {
+    --main-font-family: 'Hind Siliguri', sans-serif;
+    --titles-font-family: 'Lilita One', cursive;
+}
+
+.sapUiGlobalBackgroundImage {
+    background:linear-gradient(to right, #485563, #29323c);;
+}
+
+.sapUiBody {
+    font-family: var(--main-font-family);
+}
+
+/* --- Main View --- */
+
+.MainPage.sapMPage{
+    background-color: #040E25 !important;
+}
+.MainOH .sapMOH{
+    text-align: center;
+    background-color: #283048 !important;
+    padding: 0px !important;
+}
+
+.MainOH .sapMText{
+    color: #D4A418 !important;
+    font-family: var(--titles-font-family) !important;
+    font-size: 4rem !important;
+}
+
+.navBar{
+    background-color:#283048 !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    height: 4.2rem !important;
+    justify-content: center !important;
+    color: white;
+    border-top: 2px solid #F1F1E6;
+    border-bottom: 2px solid #F1F1E6 !important;
+    padding: 0 12px 0 12px !important;
+}
+
+.stickyHeader{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 100 !important;
+}
+
+.navButtonIcon{
+    background-color: #283048 !important;
+    border: none !important;
+    color: white !important;
+    width: 6rem !important;
+}
+
+.navButtonIcon .sapUiIcon{
+    color: white !important;
+    width: 4rem !important;
+    font-size: 3rem !important;  
+}
+
+.navButtonIcon .sapUiIcon:hover{
+    color: #D4A418 !important;
+    cursor: pointer;
+}
+
+
+.navButtonText{
+    background-color: #283048 !important;
+    color: white !important;
+    border: none !important;
+}
+.navButtonText:hover{
+    background-color: #283048 !important;
+    color: #D4A418 !important;
+    border-bottom: 2px solid #D4A418 !important;
+    cursor: pointer;
+}
+
+.navButtonText .sapMBtnContent{
+    font-weight: bold !important;
+    font-family: var(--main-font-family) !important;
+    font-size: 1.1rem !important;
+}
+
+  
+.sapMBtn.navButtonText:hover .sapMBtnContent {
+    border-bottom: 2px solid #D4A418 !important; 
+    color: #D4A418 !important;
+  }
+
+
+.sapMBtn.navButtonText:active .sapMBtnContent {
+    color: #D4A418 !important; 
+    border-bottom: 2px solid #D4A418 !important;
+  }
+
+.howItWorksPanel .sapMPanelBGTranslucent{
+    background-color: #040E25 !important;
+    padding-bottom: 2rem !important;
+    border-bottom: 2px solid #00b4db;
+}
+.howItWorksPanel.sapMPanel .sapMTB.sapMPanelHeaderTB{
+    background-color: #040E25 !important;
+    border-bottom: none !important;
+}
+
+.howItWorksBox .sapMFlexItemAlignAuto {
+    align-self: center !important;
+    flex: 100% !important;
+}
+
+.howItWorksPanel.sapMPanel .sapMTB {
+    height: 3rem !important;
+}
+
+.howItWorksBox .sapMText {
+    align-self: center !important;
+    font-family: var(--main-font-family);
+    width: 100% !important;
+    font-weight: 600;
+    font-size: 1.12rem;
+    color: lightgrey;
+    padding-left: 2rem !important;
+    text-align: justify !important;
+}
+
+.howItWorksPanel .sapMTB-Transparent-CTX .sapMTitle{
+    color: #D4A418 !important;
+    font-size: 3rem;
+    font-family: var(--main-font-family);
+    font-weight: bold;
+}
+
+.howItWorksImage.sapMImg {
+    width: 35rem !important;
+    height: 100% !important;
+    float: right;
+    padding-right: 10px !important;
+}
+
+.PrizesPanel .sapMPanelBGTranslucent {
+    background-color: #040E25 !important;
+    padding-bottom: 2rem !important;
+    border-bottom: 2px solid #00b4db;
+}
+
+.PrizesPanel.sapMPanel .sapMTB.sapMPanelHeaderTB {
+    background-color: #040E25 !important;
+    border-bottom: none !important;
+}
+
+.PrizesBox .sapMFlexItemAlignAuto {
+    align-self: center !important;
+    flex: 100% !important;
+}
+
+.PrizesPanel.sapMPanel .sapMTB {
+    height: 3rem !important;
+}
+
+.PrizesBox .sapMText {
+    align-self: center !important;
+    font-family: var(--main-font-family);
+    width: 100% !important;
+    font-weight: 600;
+    font-size: 1.12rem;
+    color: lightgrey;
+    padding-right: 2rem !important;
+    text-align: justify !important;
+}
+
+.PrizesTitleBox {
+    flex: 1;
+}
+
+.PrizesTitleBox .sapMTitle {
+    text-align: right !important;
+    color: #D4A418 !important;
+    font-size: 3rem;
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    margin-right: 16px !important;
+}
+
+.PrizesImage.sapMImg {
+    width: 35rem !important;
+    height: 100% !important;
+    padding-left: 10px !important;
+}

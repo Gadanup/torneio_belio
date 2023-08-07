@@ -1,0 +1,71 @@
+<mvc:View
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+    controllerName="torneiobelio.torneiobelio.controller.Main"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:tnt="sap.tnt"
+    height="100%"
+    width="100%"
+>
+    <Page
+        showHeader="false"
+        class="MainPage"
+    >
+        <core:Fragment fragmentName="torneiobelio.torneiobelio.view.fragments.HeaderContent" type="XML"/>
+        <VBox class="contentVBox">
+            <Panel class="howItWorksPanel sapUiMediumMarginTop">
+                <headerToolbar>
+                    <Toolbar class="ToolbarHow">
+                        <Title
+                            text="{i18n>HowItWorksTitle}"
+                            level="H1"
+                        />
+                    </Toolbar>
+                </headerToolbar>
+                <content>
+                    <HBox class="howItWorksBox">
+                        <Text
+                            class="howItWorksText"
+                            text="{i18n>HowItWorksText}"
+                        />
+                        <Image
+                            class="howItWorksImage"
+                            src="../img/ronaldo.png"
+                        />
+                    </HBox>
+                </content>
+            </Panel>
+        </VBox>
+        <VBox class="contentVBox">
+            <Panel class="PrizesPanel sapUiMediumMarginTop">
+                <headerToolbar>
+                    <Toolbar class="ToolbarPrizes">
+                        <FlexBox
+                            justifyContent="End"
+                            alignItems="Center"
+                            class="PrizesTitleBox"
+                        >
+                            <Title
+                                text="{i18n>Prizes}"
+                                level="H1"
+                            />
+                        </FlexBox>
+                    </Toolbar>
+                </headerToolbar>
+                <content>
+                    <HBox class="PrizesBox">
+                        <Image
+                            class="PrizesImage"
+                            src="../img/messi.png"
+                        />
+                        <Text
+                            class="PrizesText"
+                            text="{i18n>PrizesText}"
+                        />
+                    </HBox>
+                </content>
+            </Panel>
+        </VBox>
+    </Page>
+</mvc:View>

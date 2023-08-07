@@ -1,0 +1,324 @@
+{
+    "leagues": {
+        "premier": [
+            {
+                "club_name": "Bournemouth",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/IcOt-hrK04B-RlRwI3R0yA_48x48.png"
+            },
+            {
+                "club_name": "Arsenal",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/4us2nCgl6kgZc0t3hpW75Q_48x48.png"
+            },
+            {
+                "club_name": "Aston Villa",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_48x48.png"
+            },
+            {
+                "club_name": "Brentford",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/QOUce0WQBYqnkSmN6_TxGA_48x48.png"
+            },
+            {
+                "club_name": "Brighton",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/EKIe0e-ZIphOcfQAwsuEEQ_48x48.png"
+            },
+            {
+                "club_name": "Burnley",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/teLLSaMXim_8BA1d93sMng_48x48.png"
+            },
+            {
+                "club_name": "Chelsea",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_48x48.png"
+            },
+            {
+                "club_name": "Crystal Palace",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/8piQOzndGmApKYTcvyN9vA_48x48.png"
+            },
+            {
+                "club_name": "Everton",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/C3J47ea36cMBc4XPbp9aaA_48x48.png"
+            },
+            {
+                "club_name": "Fulham",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/Gh7_5p3n364p4vxeM8FhNg_48x48.png"
+            },
+            {
+                "club_name": "Liverpool",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/0iShHhASp5q1SL4JhtwJiw_48x48.png"
+            },
+            {
+                "club_name": "Luton Town",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/3e7bXAkZVEVAKQWTRQdGFw_48x48.png"
+            },
+            {
+                "club_name": "Man City",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/z44l-a0W1v5FmgPnemV6Xw_48x48.png"
+            },
+            {
+                "club_name": "Man United",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png"
+            },
+            {
+                "club_name": "Newcastle",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/96CcNNQ0AYDAbssP0V9LuQ_48x48.png"
+            },
+            {
+                "club_name": "Nottm Forest",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/Zr6FbE-8pDH7UBpWCO8U9A_48x48.png"
+            },
+            {
+                "club_name": "Sheffield United",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/wF8AgQsssfy3_GLyVR3dSg_48x48.png"
+            },
+            {
+                "club_name": "Tottenham",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/k3Q_mKE98Dnohrcea0JFgQ_48x48.png"
+            },
+            {
+                "club_name": "West Ham",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/bXkiyIzsbDip3x2FFcUU3A_48x48.png"
+            },
+            {
+                "club_name": "Wolves",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/-WjHLbBIQO9xE2e2MW3OPQ_48x48.png"
+            }
+        ],
+        "ligaPortugal": [
+            {
+                "club_name": "Arouca",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/MPL7gIc8hdegirtqBZLc2A_48x48.png"
+            },
+            {
+                "club_name": "Benfica",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/nFwABZ-4n_A3BGXT9A7Adg_48x48.png"
+            },
+            {
+                "club_name": "Boavista",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/By55z84mN_FMRPKVlqZiSA_48x48.png"
+            },
+            {
+                "club_name": "Casa Pia",
+                "club_badge": ""
+            },
+            {
+                "club_name": "Chaves",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/AuyMLhObhmHEeFYmAZAQUg_48x48.png"
+            },
+            {
+                "club_name": "Estoril Praia",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/M4I8t9zSkfsS-jI-m71ADQ_48x48.png"
+            },
+            {
+                "club_name": "Estrela Amadora",
+                "club_badge": ""
+            },
+            {
+                "club_name": "Famalicão",
+                "club_badge": ""
+            },
+            {
+                "club_name": "Farense",
+                "club_badge": ""
+            },
+            {
+                "club_name": "Gil Vicente",
+                "club_badge": ""
+            },
+            {
+                "club_name": "Moreirense",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/GVi9CQNTfywAlEId1LI9-A_48x48.png"
+            },
+            {
+                "club_name": "Portimonense",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/hcJq-0yiPpDIZ5OOGo8mVg_48x48.png"
+            },
+            {
+                "club_name": "Porto",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/QkkllEKwkj60jEVtOEZWAg_48x48.png"
+            },
+            {
+                "club_name": "Rio Ave",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/VG25vxdw0DTdTD_MIiil-Q_48x48.png"
+            },
+            {
+                "club_name": "Braga",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/1orTeFljffloKztScEN2RA_48x48.png"
+            },
+            {
+                "club_name": "Sporting",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/58doDuhR0wW3WZE9PdODUw_48x48.png"
+            },
+            {
+                "club_name": "Vitória SC",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/UkXfMrlrgYiUhK91JaKwYw_48x48.png"
+            },
+            {
+                "club_name": "Vizela",
+                "club_badge": ""
+            }
+        ],
+        "laLiga": [
+            {
+                "club_name": "Alavés",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/meAnutdPID67rfUecKaoFg_48x48.png"
+            },
+            {
+                "club_name": "Almeria",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/kt3Bf9IFcvWB2N3CN-N7Wg_48x48.png"
+            },
+            {
+                "club_name": "Athletic Club",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/OSL_5Zm6kYPP1J17Bo5uDA_48x48.png"
+            },
+            {
+                "club_name": "Atlético Madrid",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/srAAE0bOnCppUrlbJpFiHQ_48x48.png"
+            },
+            {
+                "club_name": "Barcelona",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/paYnEE8hcrP96neHRNofhQ_48x48.png"
+            },
+            {
+                "club_name": "Cádiz",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/H1vdTrUUqJBeUW1HfbW0nQ_48x48.png"
+            },
+            {
+                "club_name": "Celta Vigo",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/wpdhixHP_sloegfP0UlwAw_48x48.png"
+            },
+            {
+                "club_name": "Getafe",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/1UDHZMdKZD15W5gus7dJyg_48x48.png"
+            },
+            {
+                "club_name": "Girona",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/sHiSmLm_rA0BOC5MfrNt8A_48x48.png"
+            },
+            {
+                "club_name": "Granada",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/Fn_X2IO4-1ACuTemcHkDEw_48x48.png"
+            },
+            {
+                "club_name": "Las Palmas",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/yOIfuEFVFzu1dD8HiJt9vA_48x48.png"
+            },
+            {
+                "club_name": "Mallorca",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/Ss21P4CUmigjrEtcoapjVg_48x48.png"
+            },
+            {
+                "club_name": "Osasuna",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/pk-hNCNpGM_JDoHHvLVF-Q_48x48.png"
+            },
+            {
+                "club_name": "Rayo Vallecano",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/i5LifmxEVIl0sbvIysiyhw_48x48.png"
+            },
+            {
+                "club_name": "Real Betis",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/S0fDZjYYytbZaUt0f3cIhg_48x48.png"
+            },
+            {
+                "club_name": "Real Madrid",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_48x48.png"
+            },
+            {
+                "club_name": "Real Sociedad",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/w8tb1aeBfVZIj9tZXf7eZg_48x48.png"
+            },
+            {
+                "club_name": "Sevilla",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/hCTs5EX3WjCMC5Jl3QE4Rw_48x48.png"
+            },
+            {
+                "club_name": "Valencia",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/QPbjvDwI_0Wuu4tCS2O6uw_48x48.png"
+            },
+            {
+                "club_name": "Villarreal",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/WKH7Ak5cYD6Qm1EEqXzmVw_48x48.png"
+            }
+        ],
+        "serieA": [
+            {
+                "club_name": "Milan",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/VoKsJ6RitaHGhsM62e6AXQ_48x48.png"
+            },
+            {
+                "club_name": "Atalanta",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/0XmrZHobvb6ua5tgMOnTEA_48x48.png"
+            },
+            {
+                "club_name": "Bologna",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/WnKdNmw06v2lz7HjhqPRPw_48x48.png"
+            },
+            {
+                "club_name": "Cagliari",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/e9XfySyGdfyJ4UzEkYwENw_48x48.png"
+            },
+            {
+                "club_name": "Empoli",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/j8L__ffBY15ooTGG-0uZ2w_48x48.png"
+            },
+            {
+                "club_name": "Fiorentina",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/h-HS2cEVCwMJZFSlwYeWmA_48x48.png"
+            },
+            {
+                "club_name": "Frosinone",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/_J6w-PL2RjW-fRR-D7Dl-w_48x48.png"
+            },
+            {
+                "club_name": "Genoa",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/GlyoZO04xkwVX6oTh8asHA_48x48.png"
+            },
+            {
+                "club_name": "Inter",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/l2-icwsMhIvsbRw8AwC1yg_48x48.png"
+            },
+            {
+                "club_name": "Juventus",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/6lal-0xwWtos5HI99HRvuQ_48x48.png"
+            },
+            {
+                "club_name": "Lazio",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/jcKKlUVaNw3br9cIyOKmQA_48x48.png"
+            },
+            {
+                "club_name": "Lecce",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/tIaC5FB7Gm8CIULc77qMjg_48x48.png"
+            },
+            {
+                "club_name": "Monza",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/g2S0HUWrWZX9hwKC87W11Q_48x48.png"
+            },
+            {
+                "club_name": "Napoli",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/PWRLYBJqlGrAAsKkUN6eng_48x48.png"
+            },
+            {
+                "club_name": "Roma",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/BQdP4jUBFJfG7U_JBsFIMg_48x48.png"
+            },
+            {
+                "club_name": "Salernitana",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/E5wkv8G7RBA2I0VsSq7Y1A_48x48.png"
+            },
+            {
+                "club_name": "Sassuolo",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/GoeTFIVAZLA5JWk0-A6B0A_48x48.png"
+            },
+            {
+                "club_name": "Torino",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/ovE3HSEx4GWXkW8GU7KVhA_48x48.png"
+            },
+            {
+                "club_name": "Udinense",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/92Aw_iasBENKmzvdpbTpHQ_48x48.png"
+            },
+            {
+                "club_name": "Verona",
+                "club_badge": "https://ssl.gstatic.com/onebox/media/sports/logos/8qVzCbUtQYi3tNiAmIGUqg_48x48.png"
+            }
+        ]
+    }
+}

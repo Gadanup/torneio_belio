@@ -1,0 +1,1127 @@
+<mvc:View
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+    controllerName="torneiobelio.torneiobelio.controller.Leagues"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    height="100%"
+    width="100%"
+>
+    <Page
+        class="MainPage"
+        showHeader="false"
+    >
+        <core:Fragment
+            fragmentName="torneiobelio.torneiobelio.view.fragments.HeaderContent"
+            type="XML"
+        />
+        <ScrollContainer
+            vertical="true"
+            height="765px"
+        >
+            <form:Form
+                id="LeaguesForm"
+                class="LeaguesForm sapUiNoContentPadding"
+                title="{i18n>LeaguesFormTitle}"
+            >
+                <form:toolbar />
+                <form:layout>
+                    <form:ResponsiveGridLayout
+                        labelSpanXL="4"
+                        labelSpanM="4"
+                        adjustLabelSpan="false"
+                        emptySpanXL="0"
+                        columnsXL="4"
+                        columnsL="4"
+                        columnsM="4"
+                        singleContainerFullSize="false"
+                    />
+                </form:layout>
+                <form:formContainers>
+                    <form:FormContainer
+                        title="{i18n>PremierFormTitle}"
+                        class="FormTitles"
+                    >
+                        <form:formElements>
+                            <form:FormElement
+                                label="1"
+                                class="FormLabel"
+                            >
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="2">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="3">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="4">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="5">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="6">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="7">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="8">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="9">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="10">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="11">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="12">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="13">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="14">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="15">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="16">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="17">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="18">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="19">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement label="20">
+                                <form:fields>
+                                    <ComboBox
+                                        items="{leagues>/leagues/premier}"
+                                    >
+                                        <core:Item
+                                            key="{leagues>club_name}"
+                                            text="{leagues>club_name}"
+                                        />
+                                    </ComboBox>
+                                </form:fields>
+                            </form:FormElement>
+                        </form:formElements>
+                    </form:FormContainer>
+                    <form:FormContainer title="{i18n>ligaBetclicFormTitle}">
+                        <form:FormElement label="1">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="2">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="3">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="4">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="5">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="6">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="7">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="8">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="9">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="10">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="11">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="12">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="13">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="14">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="15">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="16">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="17">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="18">
+                            <form:fields>
+                                <ComboBox
+                                    items="{leagues>/leagues/ligaPortugal}"
+                                >
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                    </form:FormContainer>
+                    <form:FormContainer title="{i18n>laLigaFormTitle}">
+                        <form:FormElement label="1">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="2">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="3">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="4">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="5">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="6">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="7">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="8">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="9">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="10">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="11">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="12">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="13">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="14">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="15">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="16">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="17">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="18">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="19">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="20">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/laLiga}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                    </form:FormContainer>
+                    <form:FormContainer title="{i18n>serieAFormTitle}">
+                        <form:FormElement label="1">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="2">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="3">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="4">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="5">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="6">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="7">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="8">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="9">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="10">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="11">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="12">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="13">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="14">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="15">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="16">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="17">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="18">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="19">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="20">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/serieA}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                    </form:FormContainer>
+                </form:formContainers>
+                <form:FormContainer
+                    title="{i18n>PremierFormTitle}"
+                    class="FormTitles sapUiLargeMarginTop"
+                >
+                    <form:formElements>
+                        <form:FormElement
+                            label="1"
+                            class="FormLabel"
+                        >
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="2">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="3">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="4">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="5">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="6">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="7">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="8">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="9">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="10">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="11">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="12">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="13">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="14">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="15">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="16">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="17">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="18">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="19">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                        <form:FormElement label="20">
+                            <form:fields>
+                                <ComboBox items="{leagues>/leagues/premier}">
+                                    <core:Item
+                                        key="{leagues>club_name}"
+                                        text="{leagues>club_name}"
+                                    />
+                                </ComboBox>
+                            </form:fields>
+                        </form:FormElement>
+                    </form:formElements>
+                </form:FormContainer>
+            </form:Form>
+        </ScrollContainer>
+    </Page>
+</mvc:View>

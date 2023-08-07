@@ -1,0 +1,175 @@
+{
+  "_version": "1.49.0",
+  "sap.app": {
+    "id": "torneiobelio.torneiobelio",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:worklist",
+      "version": "1.10.3",
+      "toolsId": "39e1ae63-bf33-4064-9acc-19e3c15d5b61"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/v2/northwind/northwind.svc/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "localUri": "localService/metadata.xml",
+          "odataVersion": "2.0"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.116.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.f": {},
+        "sap.suite.ui.generic.template": {},
+        "sap.ui.comp": {},
+        "sap.ui.generic.app": {},
+        "sap.ui.table": {},
+        "sap.ushell": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "torneiobelio.torneiobelio.i18n.i18n"
+        }
+      },
+      "leagues": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/leagues.json"
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {}
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "viewPath": "torneiobelio.torneiobelio.view",
+        "controlId": "app",
+        "controlAggregation": "pages",
+        "bypassed": {
+          "target": [
+            "notFound"
+          ]
+        },
+        "async": true
+      },
+      "routes": [
+        {
+          "pattern": "Main",
+          "name": "Main",
+          "target": [
+            "Main"
+          ]
+        },
+        {
+          "pattern": "Leagues",
+          "name": "Leagues",
+          "target": [
+            "Leagues"
+          ]
+        },
+        {
+          "pattern": "Players",
+          "name": "Players",
+          "target": [
+            "Players"
+          ]
+        },
+        {
+          "pattern": "Prizes",
+          "name": "Prizes",
+          "target": [
+            "Prizes"
+          ]
+        },
+        {
+          "pattern": "Uefa",
+          "name": "Uefa",
+          "target": [
+            "Uefa"
+          ]
+        }
+      ],
+      "targets": {
+        "Main": {
+          "viewName": "Main",
+          "viewId": "Main",
+          "title": "{i18n>MainViewTitle}"
+        },
+        "Leagues": {
+          "viewName": "Leagues",
+          "viewId": "Leagues",
+          "title": "{i18n>LeaguesViewTitle}"
+        },
+        "Players": {
+          "viewName": "Players",
+          "viewId": "Players",
+          "title": "{i18n>PlayersViewTitle}"
+        },
+        "Prizes": {
+          "viewName": "Prizes",
+          "viewId": "Prizes",
+          "title": "{i18n>PrizesViewTitle}"
+        },
+        "Uefa": {
+          "viewName": "Uefa",
+          "viewId": "Uefa",
+          "title": "{i18n>UefaViewTitle}"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "torneiobelio.torneiobelio.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    }
+  }
+}

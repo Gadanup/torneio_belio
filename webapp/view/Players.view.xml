@@ -1,0 +1,19 @@
+<mvc:View
+    controllerName="torneiobelio.torneiobelio.controller.Players"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    displayBlock="true"
+    height="100%"
+    busyIndicatorDelay="0"
+>
+    <Page
+        showHeader="false"
+        class="MainPage"
+    >
+        <core:Fragment
+            fragmentName="torneiobelio.torneiobelio.view.fragments.HeaderContent"
+            type="XML"
+        />
+    </Page>
+</mvc:View>

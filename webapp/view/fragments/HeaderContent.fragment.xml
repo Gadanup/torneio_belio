@@ -1,0 +1,62 @@
+<c:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+>
+    <ObjectHeader
+        title="Bélio Tournament"
+        class="MainOH"
+    />
+    <tnt:ToolHeader class="navBar stickyHeader">
+        <Button
+            text="Players"
+            type="Unstyled"
+            class="navButtonText"
+            press="onPlayersPress"
+        >
+            <layoutData>
+                <OverflowToolbarLayoutData priority="NeverOverflow" />
+            </layoutData>
+        </Button>
+        <Button
+            text="UEFA"
+            type="Unstyled"
+            class="navButtonText"
+            press="onUEFAPress"
+        >
+            <layoutData>
+                <OverflowToolbarLayoutData priority="NeverOverflow" />
+            </layoutData>
+        </Button>
+        <Button
+            icon="sap-icon://home"
+            type="Unstyled"
+            class="navButtonIcon"
+            press="onMainPress"
+        >
+            <layoutData>
+                <OverflowToolbarLayoutData priority="NeverOverflow" />
+            </layoutData>
+        </Button>
+        <Button
+            text="Leagues"
+            type="Unstyled"
+            class="navButtonText"
+            press="onLeaguesPress"
+        >
+            <layoutData>
+                <OverflowToolbarLayoutData priority="NeverOverflow" />
+            </layoutData>
+        </Button>
+        <Button
+            text="Prizes"
+            type="Unstyled"
+            class="navButtonText"
+            press="onPrizesPress"
+        >
+            <layoutData>
+                <OverflowToolbarLayoutData priority="NeverOverflow" />
+            </layoutData>
+        </Button>
+    </tnt:ToolHeader>
+</c:FragmentDefinition>
